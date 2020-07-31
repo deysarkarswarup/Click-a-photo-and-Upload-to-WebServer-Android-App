@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void makeRequest() {
         RequestQueue requestQueue = Volley.newRequestQueue(this);
-        StringRequest request = new StringRequest(Request.Method.POST, "http://192.168.43.12/captureandstore/upload.php",
+        StringRequest request = new StringRequest(Request.Method.POST, "http://ENTER_YOUR_ADDRESS_HERE/captureandstore/upload.php",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
